@@ -225,11 +225,12 @@ button:nth-child(2):hover {
     .left-container {
         padding: 15vh 2rem 4rem 2rem;
         min-height: 100vh;
+        order: 1;
     }
     
     .right-container {
         min-height: 50vh;
-        order: -1;
+        order: 2;
     }
     
     .navlist {
